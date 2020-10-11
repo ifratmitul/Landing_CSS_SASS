@@ -18,7 +18,14 @@
       background-color: white;
     }
   }
+  &--green {
+    background-color: $color-primary;
+    color: white;
 
+    &::after {
+      background-color: white;
+    }
+  }
   &:hover {
     transform: translateY(-3px);
     box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
