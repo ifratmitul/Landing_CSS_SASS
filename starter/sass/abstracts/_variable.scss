@@ -15,9 +15,11 @@ $color-blue-dark: #5643fa;
 
 $color-tertiary-light: #2998ff;
 $color-tertiary-dark: #5643fa;
+$color-dark-gray: #999;
 
 $shadow: rgba($color-black, 0.15rem);
+$shadow-big: 0 2rem 4rem rgba($color-black, 0.15rem);
 
 //fontsizes
-
+$border-radius-size: 3px;
 $default-font-size: 1.5rem;
