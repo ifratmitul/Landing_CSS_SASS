@@ -1,0 +1,45 @@
+.popup {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background-color: rgba($color: #000000, $alpha: 0.7);
+  z-index: 10000000;
+  &__content {
+    @include absoluteCenter;
+    width: 75%;
+    height: 50rem;
+    background-color: white;
+    box-shadow: 0 2rem 4rem $shadow;
+    border-radius: 3px;
+    display: table;
+    overflow: hidden;
+  }
+
+  &__img {
+    display: block;
+    width: 100%;
+  }
+  &__left {
+    width: 33.3333%;
+    display: table-cell;
+  }
+
+  &__right {
+    width: 66.66667%;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 3rem 5rem;
+  }
+
+  &__text {
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+    column-count: 2;
+    column-gap: 4rem;
+    column-rule: 1px solid #eee;
+    hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+  }
+}
