@@ -20,3 +20,12 @@ html {
     font-size: 75%; //1rem = 12px 12/16 = 75
   }
 }
+
+body {
+  padding: 3rem;
+  box-sizing: border-box;
+
+  @include respond(tab-port) {
+    padding: 0;
+  }
+}
